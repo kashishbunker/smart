@@ -301,7 +301,6 @@ function downloadCV() {
 
 function generateAndDownloadCV() {
   generateCV();
-  // Wait for DOM update and image load if any, then download
   setTimeout(downloadCV, 300);
 
 }
